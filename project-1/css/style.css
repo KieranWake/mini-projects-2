@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0; 
     font-family: 'Times New Roman', Times, serif;
+    overflow: hidden; 
 }
 
 .banner {
@@ -29,6 +30,47 @@ nav a {
     color: white;
     padding: 10px;
     margin: 10px; 
+    text-decoration: none;
+    font-weight: 600; 
+}
+
+.content-container {
+    margin: 10px;
+    padding: 20px 20px;
+    margin-right: auto; 
+    margin-left: auto; 
+    width: 500px; 
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    height: 80vh; 
+    border-radius: 10px; 
+    backdrop-filter: blur(2px); 
+    background-color: rgba(255, 255, 255, 0.2);  
+    text-align: center; 
+}
+
+.main-content strong {
+    color: gold;
+}
+
+.main-content {
+    position: absolute; 
+    color: #fff; 
+    top: 25%;
+    left: 50%; 
+    transform: translateX(-50%);
+    min-height: 75vh;
+    padding: 20px 20px;
+}
+
+.main-content button {
+    margin: 10px;
+    padding: 15px; 
+    background-color: gold;;
+    border: 2px gold; 
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 510;
+
 
 }
 
