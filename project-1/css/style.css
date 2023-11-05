@@ -5,3 +5,30 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.banner {
+    height: 100vh;
+    width: 100%; 
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(pexels-photo-276510.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden; 
+}
+
+.navbar {
+    width: 85%;
+    height: auto; 
+    display: flex;
+    padding: 35px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    margin: 10px; 
+
+}
+
