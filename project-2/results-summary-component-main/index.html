@@ -21,45 +21,53 @@
       align-items: center;
       min-height: 75vh;
       background-color: #fff;
-      margin: 70px 70px 70px 70px;
+      margin: 70px 0;
     }
 
     .side-one {
       display: inline-block;
+      margin: 20px auto;
       width: 30%; 
-      padding: 70px 70px;
-      margin: 20px 20px; 
+      padding: 10px; 
+      margin: 20px 10px; 
       border: 2px solid hsl(234, 85%, 45%);
       border-radius: 35px;
-      border-width: 45px 45px 45px 45px;
       background-color: hsl(234, 85%, 45%);
     }
 
     h4{
-      position: relative;
-      top: -70px;
+      padding: 10px;
+      text-align: center;
       height: 100px;
-      right: -10px;
-      margin-top: 1px;
-      z-index: 1;
+      font-weight: 700;
+      font-size: 20px;
+      color: hsl(241, 100%, 89%);
     }
 
-    .circle {
-      position: relative;
-      top: -70px;
-      height: 100px;
-      margin-top: 2px;
-      right: -30px;
-      font-size: 26px;
-      
-
-
-
+   .circle {
+     text-align: center;
+     height: 100px;
+     width: 100px; 
+     margin-top: 2px;
+     font-size: 30px;
+     font-weight: 800;
+     border-radius: 50%; 
+     background-color: darkblue;
+     color: white; 
+     line-height: 100px; 
+     padding: 60px;
+     margin-left: 80px;
     }
 
-
-
-
+    .result-comp {
+      text-align: center; 
+      z-index: 2;
+      color: #fff; 
+      font-weight: 350;
+      height: 120px; 
+      margin-top: -25px; 
+      width: 95%;
+    }
 
   </style>
 
@@ -70,7 +78,7 @@
     <div class="side-one">
       <h4>Your Result</h4>
       <span class="circle">76</span>
-      <h5>of 100</h5>
+      <p class="result-comp"> of 100</p>
       <h3>Great</h3>
       <p>You scored higher than 65% of the people who have taken these tests.</p>
     </div>
