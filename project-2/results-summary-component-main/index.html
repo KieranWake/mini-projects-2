@@ -22,20 +22,24 @@
       min-height: 75vh;
       background-color: #fff;
       margin: 70px 0;
+      height: 450px;
     }
 
-    .side-one {
+    .side-one, .side-two {
       display: inline-block;
-      margin: 20px auto;
-      width: 30%; 
-      padding: 10px; 
-      margin: 20px 10px; 
+      text-align: center;
+      width: 25%; 
+      padding: 10px;
+      margin: 20px 10px;
       border: 2px solid hsl(234, 85%, 45%);
       border-radius: 35px;
       background-color: hsl(234, 85%, 45%);
+      height: 450px;
     }
 
-    h4{
+  
+
+    h4 {
       padding: 10px;
       text-align: center;
       height: 100px;
@@ -44,58 +48,48 @@
       color: hsl(241, 100%, 89%);
     }
 
-   .circle {
-     text-align: center;
-     height: 100px;
-     width: 100px; 
-     margin-top: 2px;
-     font-size: 50px;
-     font-weight: 1000;
-     border-radius: 50%; 
-     background-color: darkblue;
-     color: white; 
-     line-height: 90px; 
-     padding: 60px;
-     margin-left: 100px;
+    .circle {
+      text-align: center;
+      height: 100px;
+      width: 100px;
+      margin-top: 2px;
+      font-size: 50px;
+      font-weight: 1000;
+      border-radius: 50%;
+      background-color: darkblue;
+      color: white;
+      line-height: 90px;
+      padding: 60px;
+      margin-left: 15px;
     }
 
     .result-comp {
-      text-align: center; 
+      text-align: center;
       z-index: 2;
-      color: hsl(241, 81%, 54%); 
+      color: hsl(241, 81%, 54%);
       font-weight: 350;
-      height: 120px; 
-      margin-top: -5px; 
+      height: 120px;
+      margin-top: -5px;
       width: 103%;
     }
 
-    .side-one h3 {
+    .side-one h3, .side-two h3 {
       text-align: center;
       margin-bottom: 50px;
       margin-top: -25px;
-      font-size: 50px; 
+      font-size: 50px;
       font-weight: 1000;
       color: #fff;
     }
 
     .result-comp-two {
-      text-align: center; 
+      text-align: center;
       margin-top: -25px;
       margin-bottom: 20px;
       color: hsl(241, 100%, 89%);
       font-weight: 500;
     }
-
-    .side-two {
-      position: relative; 
-      display: inline-block;
-      margin-left: 70px;
-      margin-top: -220px;
-    }
-
-
   </style>
-
 </head>
 
 <body>
@@ -106,18 +100,19 @@
       <p class="result-comp"> of 100</p>
       <h3>Great</h3>
       <p class="result-comp-two">You scored higher than 65% of the people who have taken these tests.</p>
-  </div>
-  <div class="side-two">
+    </div>
+    <div class="side-two">
       <h4>Summary</h4>
       <ul>
         <li style="list-style-image: url('./assets/images/icon-reaction.svg');">Reaction 80 / 100</li>
-        <li class="list-two">Memory 92 / 100</li>
-        <li class="list-three">Verbal 61 / 100</li>
-        <li class="list-four">Visual 72 / 100</li>
+        <li style="list-style-image: url('./assets/images/icon-memory.svg');">Memory 92 / 100</li>
+        <li style="list-style-image: url('./assets/images/icon-verbal.svg');">Verbal 61 / 100</li>
+        <li style="list-style-image: url('./assets/images/icon-visual.svg');">Visual 72 / 100</li>
       </ul>
-      <button>Continue</button>
+      <button class="btn">Continue</button>
+    </div>
   </div>
-</div>
-  
 </body>
 </html>
+
+
